@@ -41,4 +41,8 @@ public class HtmlThead extends HtmlElement {
 	public HtmlThead() {
 		super(TAG);
 	}
+        
+        public void addRow(HtmlTr row) {
+		this.appendChild(row);
+	}
 }
