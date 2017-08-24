@@ -277,7 +277,7 @@ public abstract class HtmlElement extends Element implements XMLConstants {
 	 * @param element
 	 * @return
 	 */
-	@Deprecated // use HtmlFactory
+	
 	public static HtmlElement create(Element element) {
 		return HtmlElement.create(element, false, false);
 	}
@@ -292,7 +292,7 @@ public abstract class HtmlElement extends Element implements XMLConstants {
 	 * @param ignores namespaces (e.g. from Jsoup)
 	 * @return
 	 */
-	@Deprecated // use HtmlFactory instead
+	
 	private static HtmlElement create(Element element, boolean abort, boolean ignoreNamespaces) {
 		HtmlElement htmlElement = null;
 		String tag = element.getLocalName();
