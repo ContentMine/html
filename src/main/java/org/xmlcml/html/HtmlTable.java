@@ -84,8 +84,8 @@ public class HtmlTable extends HtmlElement {
 		return (HtmlTfoot) getSingleChildElement(this, HtmlTfoot.TAG); 
 	}
 
-	public HtmlTbody getThead() {
-		return (HtmlTbody) getSingleChildElement(this, HtmlThead.TAG); 
+	public HtmlThead getThead() {
+		return (HtmlThead) getSingleChildElement(this, HtmlThead.TAG); 
 	}
 
 	public HtmlTr getSingleLeadingTrThChild() {
